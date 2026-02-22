@@ -20,4 +20,4 @@ jobs:
           key: cache-23c313f
 
       - name: prime-cache-23c313f
-        run: echo "Cache hit: ${{ steps.cache-23c313f.outputs.cache-hit }}"
+        run: echo Cache hit: ${{ steps.cache-23c313f.outputs.cache-hit }}

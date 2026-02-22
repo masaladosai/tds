@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "email": "24f1002341@ds.study.iitm.ac.in",
+    "version": "806c07bb"
+  },
+  "products": [
+    {
+      "id": "prod-806c07bb-001",
+      "name": "Elite Item 1",
+      "category": "electronics",
+      "price": 365.4,
+      "stock": 103,
+      "rating": 2.5
+    }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": X,
+      "inventoryValue": Y
+    },
+    "clothing": {
+      "count": X,
+      "inventoryValue": Y
+    },
+    "books": {
+      "count": 4,
+      "inventoryValue": 53546.14
+    }
+  }
+}
